@@ -280,8 +280,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃
-    SUCCESSFULLY\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @LOLOLOLOLOLO90087"
+    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑.💥💥\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @LOLOLOLOLOLO90087"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -322,7 +321,7 @@ def handle_bgmi(message):
         else:
             response = " USER COMMENT :- /bgmi <TARGET> <PORT> <TIME>✅"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @LOLOLOLOLOLO90087)
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @venomXcrazy)
 
     bot.reply_to(message, response)
 
