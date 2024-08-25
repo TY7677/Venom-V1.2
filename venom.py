@@ -4,8 +4,8 @@ import logging
 from aiogram import Bot
 import asyncio
 
-API_TOKEN = '7497064085:AAG0hujyC9eTg_bIsyV82JUAq2PxurUZwPA'
-ADMIN_ID = '6165267122'
+API_TOKEN = '6601668746:AAG6BLLqsoVKKcKOPr9lmQajR_zs26H21qI'
+ADMIN_ID = '5338045956'
 MAX_RESTARTS = 5
 RESTART_PERIOD = 60  # Seconds
 
@@ -42,7 +42,7 @@ async def main():
 
         logging.info("Starting the bot...")
         process = start_bot()
-        await notify_admin("🚀 Bot is starting...")
+        await notify_admin("🚀 ATTACK")
 
         while process.poll() is None:
             await asyncio.sleep(5)
@@ -57,4 +57,4 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        logging.info("Venom script terminated by user.")
+        logging.info("LOLOLOLOLOLO90087 script terminated by user.")
